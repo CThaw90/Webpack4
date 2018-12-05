@@ -21,7 +21,7 @@ self.nextButtonClick = function () {
 
 self.previousButtonClick = function () {
     if (templateIndex > 0) {
-
+        ko.cleanNode(self.rootElement.firstElementChild);
         templateIndex--;
         self.render();
     }
