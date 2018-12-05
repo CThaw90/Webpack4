@@ -1,0 +1,122 @@
+<div>
+    <h1>Ensure Student & Staff Safety</h1>
+    <hr>
+
+    <label for="initiatingSchool">Initiating School *</label>
+    <input id="initiatingSchool" type="text" title="Initiating School"/>
+
+    <label for="schoolPhone">School Phone *</label>
+    <input id="schoolPhone" type="text" title="School Phone" />
+
+    <label for="dateOfReport">Date of Report *</label>
+    <input id="dateOfReport" type="date" title="Date of Report" />
+
+    <label for="administratorName">Administrator Name *</label>
+    <input id="administratorName" type="text" title="Administrator Name" />
+
+    <label for="administratorEmail">Administrator Email *</label>
+    <input id="administratorEmail" type="email" title="Administrator Email" />
+
+    <label for="dateOfIncident">Date of Incident *</label>
+    <input id="dateOfIncident" type="text" title="Date of Incident" />
+
+    <h1>Student Information</h1>
+    <hr>
+    <label for="studentId">Student ID# *</label>
+    <input id="studentId" type="text" title="Student ID#" />
+
+    <label for="studentName">Student Name *</label>
+    <input id="studentName" type="text" title="Student Name" />
+
+    <label for="dateOfBirth">Date of Birth *</label>
+    <input id="dateOfBirth" type="date" title="Date of Birth" />
+
+    <label for="studentAge">Student Age *</label>
+    <input id="studentAge" type="text" title="Student Age" />
+
+    <label for="studentGrade">Student Grade *</label>
+    <input id="studentGrade" type="text" title="Student Grade" />
+
+    <label for="spEd504">SpED/504 Designation *</label>
+    <div id="spEd504" class="checkbox-button-group">
+        <input id="spEd504_None" type="checkbox" title="None" /> <label for="spEd504_None">None</label>
+        <input id="spEd504_SpED" type="checkbox" title="SpED" /> <label for="spEd504_SpED">SpED</label>
+        <input id="spEd504_504" type="checkbox" title="504" /> <label for="spEd504_504">504</label>
+    </div>
+
+    <label for="studentLEP">Is Student LEP?</label>
+    <div id="studentLEP" class="checkbox-button-group">
+        <input id="studentLEP_No" type="checkbox" /> <label for="studentLEP_No">No</label>
+        <input id="studentLEP_Yes" type="checkbox" /> <label for="studentLEP_Yes">Yes</label>
+    </div>
+
+    <h1>Immediate Discipline Decision</h1>
+    <hr>
+
+    <label for="immediateDisciplineDecision">Immediate Discipline Decision *</label>
+    <div id="immediateDisciplineDecision" class="checkbox-button-group">
+        <input id="inSchool" type="checkbox" /> <label for="inSchool">In-school Suspension</label>
+        <input id="outSchool" type="checkbox" /> <label for="outSchool">Out-of-School Suspension</label>
+        <input id="afterSchool" type="checkbox" /> <label for="afterSchool">After-school Detention</label>
+        <input id="referral" type="checkbox" /> <label for="referral">Referral to School Board for expulsion</label>
+        <input id="attendance" type="checkbox" /> <label for="attendance">Saturday Attendance</label>
+        <input id="community" type="checkbox" /> <label for="community">Community Service</label>
+        <input id="other" type="checkbox" /> <label for="other">Other</label>
+    </div>
+
+    <h1>Immediate Action(s) Taken</h1>
+    <hr>
+
+    <label for="immediateAction_Group">Immediate Action(s) Taken *</label>
+    <div id="immediateAction_Group">
+        <label for="actionTaken">Action Taken</label>
+        <input id="actionTaken" type="text" title="Action Taken" />
+
+        <label for="byWhom">By Whom</label>
+        <input id="byWhom" type="text" title="By Whom" />
+
+        <label for="immediateAction_Date">Date</label>
+        <input id="immediateAction_Date" type="date" title="Date" />
+
+        <label for="immediateAction_NotListed">Are there Immediate Action(s) Taken not listed above?</label>
+        <div id="immediateAction_NotListed" class="checkbox-button-group">
+            <input id="NotListed_No" type="checkbox" title="No" /> <label for="NotListed_No">No</label>
+            <input id="NotListed_Yes" type="checkbox" title="Yes" /> <label for="NotListed_Yes">Yes</label>
+        </div>
+    </div>
+
+    <h1>Reported By</h1>
+    <hr>
+
+    <label for="assistantPrincipalId">Assistant Principal ID *</label>
+    <input id="assistantPrincipalId" type="text" title="Assistant Principal ID" />
+
+    <label for="assistantPrincipalName">Assistant Principal Name *</label>
+    <input id="assistantPrincipalName" type="text" title="Assistant Principal Name" />
+
+    <label for="reportedBy_Date">Date</label>
+    <input id="reportedBy_Date" type="date" title="Date" />
+
+    <label for="counselorID">Counselor ID *</label>
+    <input id="counselorID" type="text" title="Counselor ID" />
+
+    <label for="counselorName">Counselor Name *</label>
+    <input id="counselorName" type="text" title="Counselor Name" />
+
+    <label for="reportedBy_CounselorDate">Date</label>
+    <input id="reportedBy_CounselorDate" type="date" title="Date" />
+
+    <label for="sroID">SRO ID *</label>
+    <input id="sroID" type="text" title="SRO ID" />
+
+    <label for="sroName">SRO Name *</label>
+    <input id="sroName" type="text" title="SRO Name" />
+
+    <label for="sroDate">Date</label>
+    <input id="sroDate" type="date" title="Date" />
+
+    <div class="form-action-button-group">
+        <button type="button" data-bind="click: nextButtonClick">Next</button>
+        <a href="javascript:void(0)">Save and Continue Later</a>
+    </div>
+</div>
